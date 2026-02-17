@@ -1,0 +1,1 @@
+grep "ERROR" log.txt | grep -v "DEBUG" > filtered_log.txt

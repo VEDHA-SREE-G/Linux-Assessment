@@ -1,0 +1,1 @@
+ip route | awk '/via/ {print $3}' | sort

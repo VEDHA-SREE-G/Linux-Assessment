@@ -1,0 +1,1 @@
+kill $(ps -eo pid --sort=-%mem | awk 'NR==2 {print $1}')
